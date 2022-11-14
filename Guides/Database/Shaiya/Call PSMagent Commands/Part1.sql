@@ -1,0 +1,1 @@
+exec sp_changedbowner [vmi24230\Administrator]
