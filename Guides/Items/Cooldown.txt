@@ -1,0 +1,14 @@
+SpellGroup Values;
+0 = 0 sec, 
+1 = 15 sec, 
+2 = 20 sec, 
+3 = 25 sec, 
+4 = 30 sec, 
+5 = 60 sec, 
+6 = 120 sec, 
+7 = 0 sec, 
+8 = 0 sec, 
+9 = 0 sec, 
+10 = 600 sec, 
+11 = 2 sec, 
+12 = 0 sec

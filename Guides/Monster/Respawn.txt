@@ -1,0 +1,21 @@
+when any monster linked with svmap, then not gonna use obelisk.ini for spawn.
+Check PS_GameDefs/Monster table and find AttackSpecial3 column.
+
+AttackSpecial3 
+0 - 5 second
+1 - 30 second
+2 - 60 second
+3 - 3 minute
+4 - 5 minute
+5 - 10 minute 
+6 - 15 minute
+7 - 30 minute
+8 - 1 saat
+9 - 4 saat
+10 - 12 saat
+11 - 1 gün
+12 - 3 gün
+13 - 2 saat
+14 - 0 saat
+15 - 7 gün
+default - 15 second
