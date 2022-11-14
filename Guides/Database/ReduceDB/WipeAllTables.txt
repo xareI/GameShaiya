@@ -1,0 +1,5 @@
+USE PS_GameLog
+GO
+EXEC sp_MSForEachTable 'TRUNCATE TABLE ?'
+EXEC sp_MSForEachTable 'DBCC CHECKIDENT ( "?", RESEED, 0)'
+GO
