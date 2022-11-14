@@ -1,0 +1,7 @@
+Some skills could be vanish after death or not for change that check that column declares;
+
+1) FixRange = 0, KeepTime type of second and buff gonna disappear after death.
+2) FixRange = 1, KeepTime type of hour and buff not gonna disappear after death.
+3) FixRange = 2, KeepTime type of second and buff not gonna disappear after death.
+
+Need to be check KeepTime part, when values upper than 1000 usually of second type.
