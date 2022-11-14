@@ -1,0 +1,6 @@
+! xarel xxx 5000
+DECLARE @TargetChar varchar(20)=(SELECT items FROM PS_ChatLog.dbo.split(@ChatData,' ') Where nameindex=2)
+DECLARE @BountyPoint varchar(10)=(SELECT items FROM PS_ChatLog.dbo.split(@ChatData,' ') Where nameindex=3)
+
+nameindex=2 --> xxx
+nameindex=3 --> 5000
